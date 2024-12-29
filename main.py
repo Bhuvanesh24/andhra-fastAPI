@@ -7,7 +7,7 @@ app = FastAPI(title="FastAPI Model Mediator")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://web-production-95e3.up.railway.app","https://water-frontend-andhra.vercel.app/waterforecast"],  
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
