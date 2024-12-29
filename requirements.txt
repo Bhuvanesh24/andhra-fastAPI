@@ -7,3 +7,4 @@ scipy
 torch
 uvicorn
 pandas
+python-multipart==0.0.5
