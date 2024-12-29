@@ -130,7 +130,7 @@ def simulate_risk_score(rainfall, evaporation, inflow, outflow, population, wate
         "Storage Change": storage_change,
     }
 
-@router.post("/predict/")
+@router.post("predict/")
 async def predict_risk(data: ScenarioRequest):
     try:
         result = simulate_risk_score(

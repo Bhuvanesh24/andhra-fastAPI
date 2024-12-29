@@ -63,7 +63,7 @@ async def predict_score(request: ScoreRequest):
 
 
 
-@router.post("/retrain")
+@router.post("/retrain/")
 async def retrain_model_endpoint(file: UploadFile = File(...)):
     """
     Endpoint to upload a CSV file, retrain the model, and generate predictions for the next 5 years.
