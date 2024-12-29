@@ -12,7 +12,7 @@ scikit-learn = "==1.5.2"
 numpy = "*"
 scipy = "*"
 gunicorn = "*"
-
+pandas = "*"
 [dev-packages]
 
 [requires]
