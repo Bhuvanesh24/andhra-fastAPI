@@ -7,7 +7,7 @@ app = FastAPI(title="FastAPI Model Mediator")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:8000","http://localhost:3000"],  
+    allow_origins=["andhra-django-production.up.railway.app","http://localhost:3000"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
